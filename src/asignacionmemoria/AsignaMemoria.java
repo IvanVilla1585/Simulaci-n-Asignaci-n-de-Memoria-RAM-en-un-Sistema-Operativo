@@ -716,7 +716,8 @@ public class AsignaMemoria extends javax.swing.JFrame {
                     compactacion1(cabeza);
                     if (sw == 0) {
                         jButton4.setEnabled(false);
-                        JOptionPane.showMessageDialog(this, "No se pudo asignar memoria por  Compactacion1");
+                        JOptionPane.showMessageDialog(this, "No se pudo asignar memoria por  Compactacion1," + 
+                                                      "asigne por compactación2");
                         Cont2 = 0;
                         txtCantidad.setEnabled(false);
                     } else {
